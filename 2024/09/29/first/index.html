@@ -1,228 +1,32 @@
+extends includes/layout.pug
 
-<!DOCTYPE html>
-<html lang="en" class="loading">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>小尖尖 - maomu</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="Once upon a time there was someone who loved you for a long time,
-薛:1234都心照不宣 多少有些遮掩为泛情的季节 还在拼凑些条件爱躲在老街 不愿让人发现复古得惹人嫌 它怀念 单车的季节
+block content
+  #post
+    if top_img === false
+      include includes/header/post-info.pug
 
-
-
-韩:1234看月牙露出小尖尖 会约在哪里见面没电话的从前 奔跑只因思,"> 
-    <meta name="author" content="maomu"> 
-    <link rel="alternative" href="atom.xml" title="maomu" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-    
-    
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="小尖尖 - maomu"/>
-    <meta name="twitter:description" content="Once upon a time there was someone who loved you for a long time,
-薛:1234都心照不宣 多少有些遮掩为泛情的季节 还在拼凑些条件爱躲在老街 不愿让人发现复古得惹人嫌 它怀念 单车的季节
-
-
-
-韩:1234看月牙露出小尖尖 会约在哪里见面没电话的从前 奔跑只因思,"/>
-    
-    
-    
-    
-    <meta property="og:site_name" content="maomu"/>
-    <meta property="og:type" content="object"/>
-    <meta property="og:title" content="小尖尖 - maomu"/>
-    <meta property="og:description" content="Once upon a time there was someone who loved you for a long time,
-薛:1234都心照不宣 多少有些遮掩为泛情的季节 还在拼凑些条件爱躲在老街 不愿让人发现复古得惹人嫌 它怀念 单车的季节
-
-
-
-韩:1234看月牙露出小尖尖 会约在哪里见面没电话的从前 奔跑只因思,"/>
-    
-<link rel="stylesheet" href="/css/diaspora.css">
-
-    <script>window.searchDbPath = "/search.xml";</script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<meta name="generator" content="Hexo 7.3.0"></head>
-
-<body class="loading">
-    <span id="config-title" style="display:none">maomu</span>
-    <div id="loader"></div>
-    <div id="single">
-    <div id="top" style="display: block;">
-    <div class="bar" style="width: 0;"></div>
-    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
-    <div title="播放/暂停" class="iconfont icon-play"></div>
-    <h3 class="subtitle">小尖尖</h3>
-    <div class="social">
-        <div>
-            <div class="share">
-                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
-            </div>
-            <div id="qr"></div>
-        </div>
-    </div>
-    <div class="scrollbar"></div>
-</div>
-
-    <div class="section">
-        <div class="article">
-    <div class='main'>
-        <h1 class="title">小尖尖</h1>
-        <div class="stuff">
-            <span>九月 29, 2024</span>
-            
-  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/love-and-peace/" rel="tag">love and peace</a></li></ul>
-
-
-        </div>
-        <div class="content markdown">
-            <hr>
-<h2 id="薛"><a href="#薛" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">都心照不宣 多少有些遮掩</span><br><span class="line">为泛情的季节 还在拼凑些条件</span><br><span class="line">爱躲在老街 不愿让人发现</span><br><span class="line">复古得惹人嫌 它怀念 单车的季节</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="韩"><a href="#韩" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">看月牙露出小尖尖 会约在哪里见面</span><br><span class="line">没电话的从前 奔跑只因思念</span><br><span class="line">别打扰树影的聊天 给他们多些时间</span><br><span class="line">从犹豫到相恋 先别让人发现</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="薛-1"><a href="#薛-1" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">爱阴晴圆缺 好像有了区别</span><br><span class="line">像找不到原件 所以我们都走不远</span><br><span class="line">都题材有限 也不是很理解</span><br><span class="line">为何写满背面 来描写一张旧照片</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="韩-1"><a href="#韩-1" class="headerlink" title="韩:"></a>韩:</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">看月牙露出小尖尖 怎么你还没有出现</span><br><span class="line">不问不看时间 站在小雨里面</span><br><span class="line">别偷偷拆开那信件 落笔的人红了脸</span><br><span class="line">你会踮起脚尖 还是消失不见</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="韩-2"><a href="#韩-2" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">别打扰那些美好画面</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="薛-2"><a href="#薛-2" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我们经不起考验</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="合"><a href="#合" class="headerlink" title="合:"></a><strong>合:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在霓虹雨里面 伞里都是恩怨</span><br><span class="line">我口袋只剩玫瑰一片 此行又山高路远</span><br><span class="line">问私奔多少年</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="韩-3"><a href="#韩-3" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">能舍弃这世界</span><br></pre></td></tr></table></figure>
-
-
-            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
-                <source type="audio/mpeg" src="">
-            </audio>
-            
-                <ul id="audio-list" style="display:none">
-                    
-                        
-                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
-                        
-                    
-                        
-                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
-                        
-                    
-                </ul>
-            
-        </div>
+    article#article-container.post-content!=page.content
+    include includes/post/post-copyright.pug
+    .tag_share
+      if (page.tags.length > 0 && theme.post_meta.post.tags)
+        .post-meta__tag-list
+          each item, index in page.tags.data
+            a(href=url_for(item.path)).post-meta__tags #[=item.name]
+      include includes/third-party/share/index.pug
         
-        
-    <div id="gitalk-container" class="comment link"
-		data-enable="false"
-        data-ae="false"
-        data-ci=""
-        data-cs=""
-        data-r=""
-        data-o=""
-        data-a=""
-        data-d="false"
-    >查看评论</div>
+    if theme.reward.enable && theme.reward.QR_code
+      !=partial('includes/post/reward', {}, {cache: true})
 
+    //- ad
+    if theme.ad && theme.ad.post
+      .ads-wrap!=theme.ad.post
 
-    </div>
-    
-</div>
+    if theme.post_pagination
+      include includes/pagination.pug
+    if theme.related_post && theme.related_post.enable
+      != related_posts(page,site.posts)
 
-
-    </div>
-</div>
-</body>
-
-
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
-
-
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-
-
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
-
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-</html>
+    if page.comments !== false && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+      
