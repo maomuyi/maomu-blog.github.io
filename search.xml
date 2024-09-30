@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>小尖尖</title>
+      <link href="/2024/09/29/first/"/>
+      <url>/2024/09/29/first/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="薛"><a href="#薛" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">都心照不宣 多少有些遮掩</span><br><span class="line">为泛情的季节 还在拼凑些条件</span><br><span class="line">爱躲在老街 不愿让人发现</span><br><span class="line">复古得惹人嫌 它怀念 单车的季节</span><br></pre></td></tr></table></figure><h2 id="韩"><a href="#韩" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">看月牙露出小尖尖 会约在哪里见面</span><br><span class="line">没电话的从前 奔跑只因思念</span><br><span class="line">别打扰树影的聊天 给他们多些时间</span><br><span class="line">从犹豫到相恋 先别让人发现</span><br></pre></td></tr></table></figure><h2 id="薛-1"><a href="#薛-1" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">爱阴晴圆缺 好像有了区别</span><br><span class="line">像找不到原件 所以我们都走不远</span><br><span class="line">都题材有限 也不是很理解</span><br><span class="line">为何写满背面 来描写一张旧照片</span><br></pre></td></tr></table></figure><h2 id="韩-1"><a href="#韩-1" class="headerlink" title="韩:"></a>韩:</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">看月牙露出小尖尖 怎么你还没有出现</span><br><span class="line">不问不看时间 站在小雨里面</span><br><span class="line">别偷偷拆开那信件 落笔的人红了脸</span><br><span class="line">你会踮起脚尖 还是消失不见</span><br></pre></td></tr></table></figure><h2 id="韩-2"><a href="#韩-2" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">别打扰那些美好画面</span><br></pre></td></tr></table></figure><h2 id="薛-2"><a href="#薛-2" class="headerlink" title="薛:"></a><strong>薛:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">我们经不起考验</span><br></pre></td></tr></table></figure><h2 id="合"><a href="#合" class="headerlink" title="合:"></a><strong>合:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在霓虹雨里面 伞里都是恩怨</span><br><span class="line">我口袋只剩玫瑰一片 此行又山高路远</span><br><span class="line">问私奔多少年</span><br></pre></td></tr></table></figure><h2 id="韩-3"><a href="#韩-3" class="headerlink" title="韩:"></a><strong>韩:</strong></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">能舍弃这世界</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> love </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> love and peace </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/09/29/hello-world/"/>
+      <url>/2024/09/29/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
