@@ -72,7 +72,7 @@
     color: #fff; /*默认模式博主气泡字体配色*/
     width: fit-content;
     max-width: 100%;
-    left: 9px;
+    right: 9px;
   }
   .tk-master .tk-content a {
     color: #eeecaa;
